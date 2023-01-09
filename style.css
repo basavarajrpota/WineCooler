@@ -1,0 +1,790 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 35px;
+    background-color: maroon;
+}
+#navbar{
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+#navbar div:first-child{
+    width: 55%;
+}
+#navbarLinks{
+    width: 45%;
+    height: 35px;
+}
+#navbarLinks ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+}
+#navbarLinks ul li{
+    list-style: none;
+}
+#navbarLinks ul li a{
+    text-decoration: none;
+    flex-basis: auto;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbarLinks ul li a:hover{
+    color: gray;
+}
+#navbarLinks ul li{
+    color: #fff;
+}
+#navbarLinks ul li p{
+    color:rgb(92, 90, 90);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.navbar_Item-cart{
+    background-color: #fff;
+    padding: 9px 30px;
+}
+.fa-cart-shopping{
+    color: maroon;
+    font-size: 20px;
+}
+.fa-truck,.fa-circle-question,.fa-user{
+    font-size: 12px;
+}
+header{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.header-logo-img{
+    width: 25%;
+}
+.header-searchBar{
+    width: 35%;
+    background-color: aliceblue;
+    position: relative;
+}
+.header-searchBar input{
+    width: 430px;
+    height: 40px;
+    position: relative;
+    border: 3px solid rgb(172, 168, 168);
+    padding-left: 20px;
+}
+.header-searchBar button{
+    position: absolute;
+    right: -4px;
+    top: 0;
+    width: 150px;
+    height: 40px;
+    background-color: maroon;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: 3px solid rgb(172, 168, 168); 
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+.header-rightSide-firstContent{
+    width: 20%;
+    text-align: center;
+}
+.header-rightSide-firstContent h1{
+    color: maroon;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+
+}
+.header-rightSide-firstContent h3{
+    color: #4f4f4f;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.header-rightSide-secondContent{
+    width: 20%;
+    text-align: center;
+}
+.header-rightSide-secondContent h1{
+    color: maroon;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.header-rightSide-secondContent h3{
+    color: #4f4f4f;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+#navbar_menu_link{
+    width: 90%;
+    height: 60px;
+    margin: auto;
+    background-color: rgb(239, 244, 245);
+}
+#navbar_menu_link div ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 60px;
+    border: 1px solid rgb(172, 168, 168);
+}
+#navbar_menu_link div ul li{
+    list-style: none;
+}
+#navbar_menu_link div ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+#navbar_menu_link div ul span{
+     font-size: 65px;
+     font-weight:1px;
+     top: -6px;
+     position: relative;
+    color:rgb(172, 168, 168) ;
+}
+#image-section{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bottom-img{
+    width: 90%;
+    height: 120px;
+    margin: 0 auto;
+}
+#horizontal-line{
+    width: 90%;
+    height: 35px;
+    margin: auto;
+  position: relative;
+}
+#horizontal-line h1{
+    font-size: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-color: #fff;
+    left: 450px;
+    top: 5px;
+    padding: 0 10px;
+}
+#horizontal-line span {
+    background: #990f04;
+    height: 1px;
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+ }
+ #temperature-zone{
+    width: 90%;
+    height: 280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ #horizontal-line-bottle-capacity{
+    width: 90%;
+    height: 35px;
+    margin: auto;
+  position: relative;
+ }
+ #horizontal-line-bottle-capacity span{
+    background: #990f04;
+    height: 1px;
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+ }
+ #horizontal-line-bottle-capacity h1{
+    font-size: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-color: #fff;
+    left: 450px;
+    top: 5px;
+    padding: 0 10px;
+ }
+ #bottle-capacity{
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ #horizontal-line-shop-by-brand{
+    width: 90%;
+    height: 35px;
+    margin: auto;
+  position: relative;
+ }
+ #horizontal-line-shop-by-brand span{
+    background: #990f04;
+    height: 1px;
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+ }
+ #horizontal-line-shop-by-brand h1{
+    font-size: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-color: #fff;
+    left: 450px;
+    top: 5px;
+    padding: 0 10px;
+ }
+ #brand-list {
+    width: 90%;
+    height: 90vh;
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+ }
+ #brand-list div{
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin: 5px;
+ }
+ #horizontal-line-seeling-product{
+    width: 90%;
+    height: 35px;
+    margin: auto;
+  position: relative;
+ }
+ #horizontal-line-seeling-product span{
+    background: #990f04;
+    height: 1px;
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+ }
+ #horizontal-line-seeling-product h1{
+    font-size: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-color: #fff;
+    left: 450px;
+    top: 5px;
+    padding: 0 10px;
+ }
+ #product-list{
+  width: 90%;
+  height: 320vh;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  padding: 10px;
+ }
+ #product-list .productBox{
+    width: 95%;
+    height: 500px;
+    border: 1px solid gray;
+    padding-top: 6px;
+ }
+ .productImg{
+text-align: center;
+ }
+ .productDetails{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    color: gray;
+ }
+ .costPara{
+    text-align: center;
+    line-height: 1.5;
+ }
+ .costPara .cost-coloring{
+    color: green;
+    font-size: 18px;
+    font-weight: 600;
+ }
+
+ .discount-cost{
+    text-decoration: line-through;
+    color: gray;
+    font-weight: 600;
+ }
+ .costPara h5{
+    color: maroon;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+ }
+ .star-ratings{
+    color: orange;
+    letter-spacing: 3px;
+    font-size: 13px;
+ }
+ .reviews{
+    color: gray;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .dimensions{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(224, 237, 243);
+    border-top: 1px solid gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #4f4f4f;
+ }
+ .bottomContent{
+    width: 100%;
+    height: 40px;
+    display: flex;
+ }
+ .bottomContent div:first-child{
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: maroon;
+ }
+ .bottomContent div:nth-child(2){
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: #9e060b;
+ }
+ .bottomContent div:last-child{
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: maroon;
+ }
+ #horizontal-line-shop-with-us{
+    width: 90%;
+    height: 35px;
+    margin: auto;
+  position: relative;
+ }
+ #horizontal-line-shop-with-us span{
+    background: #990f04;
+    height: 1px;
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+ }
+ #horizontal-line-shop-with-us h1{
+    font-size: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-color: #fff;
+    left: 480px;
+    top: 5px;
+    padding: 0 10px;
+ }
+#shop-with-us{
+    width: 90%;
+    height: 280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#shop-with-us div{
+    position: relative;
+ text-align: center;
+ padding-top: 30px;
+}
+
+#shop-with-us div p:nth-child(2){
+    color: gray;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   line-height: 1.5;
+ padding: 20px 0;
+}
+#shop-with-us div p:last-child{
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: gray;
+}
+#horizontal-line-welcome-msg{
+    width: 90%;
+    height: 35px;
+    margin: auto;
+  position: relative;
+}
+#horizontal-line-welcome-msg span{
+    background: #990f04;
+    height: 1px;
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+#horizontal-line-welcome-msg h1{
+    font-size: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-color: #fff;
+    left: 410px;
+    top: 5px;
+    padding: 0 10px;
+}
+#welcome-para{
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+}
+#welcome-para p{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 10px 0;
+    line-height: 1.5;
+    letter-spacing:1px;
+}
+#horizontal-customer-thoughts{
+    width: 90%;
+    height: 35px;
+    margin: auto;
+  position: relative;
+}
+#horizontal-customer-thoughts span{
+    background: #990f04;
+    height: 1px;
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+#horizontal-customer-thoughts h1{
+    font-size: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-color: #fff;
+    left: 410px;
+    top: 5px;
+    padding: 0 10px;
+}
+#customer-thoughts{
+    width: 90%;
+    height: 340px;
+    margin: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    position: relative;
+    padding-right: 30px;
+}
+.first-customer{
+    width: 33%;
+    height: 250px;
+    position: relative;
+}
+.first-customer img{
+    position: absolute;
+    top: 60px;
+    left: 130px;
+    border-radius: 50px;
+}
+.first-customer .fa-quote-left{
+    position: absolute;
+    top: 120px;
+    color: gray;
+}
+.first-customer .cust-name{
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.first-customer p{
+    color: gray;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+}
+.second-customer{
+    width: 33%;
+    height: 250px;
+    position: relative;
+}
+.second-customer img{
+    position: absolute;
+    top: 60px;
+    left: 160px;
+    border-radius: 50px;
+}
+.second-customer .fa-quote-left{
+    position: absolute;
+    top: 120px;
+    color: gray;
+}
+.second-customer .cust-name{
+    position: absolute;
+    top: 140px;
+    left: 150px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.second-customer p{
+    color: gray;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+}
+.third-customer{
+    width: 33%;
+    height: 250px;
+    position: relative;
+}
+.third-customer img{
+    position: absolute;
+    top: 60px;
+    left: 170px;
+    border-radius: 50px;
+}
+.third-customer .fa-quote-left{
+    position: absolute;
+    top: 120px;
+    color: gray;
+}
+.third-customer .cust-name{
+    position: absolute;
+    top: 140px;
+    left: 160px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.third-customer p{
+    color: gray;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+}
+#horizontal-line-scroll-top{
+    width: 100%;
+    height: 35px;
+  position: relative;
+}
+#horizontal-line-scroll-top .line{
+    background: #990f04;
+    height: 5px;
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+#horizontal-line-scroll-top .scroll-top{
+    font-size: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-color: maroon;
+    left: 600px;
+    bottom: 15px;
+    padding: 10px 20px;
+    font-size: 10px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+#horizontal-line-welcome-msg h1{
+    font-size: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-color: #fff;
+    left: 410px;
+    top: 5px;
+    padding: 0 10px;
+}
+#footer-information{
+    width: 90%;
+    height: 240px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.footer-information-heading{
+    color: rgb(100, 98, 98);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.footer-information-list li{
+    list-style: none;
+    color: gray;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    letter-spacing:1px;
+}
+.input-mail input{
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    margin: 20px 0px;
+}
+.input-mail button{
+    width: 140px;
+    height: 40px;
+    background-color: maroon;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+   border: none;
+   letter-spacing: 1px;
+   border-radius: 5px;
+}
+.input-mail li:last-child{
+    font-size: 10px;
+}
+.input-mail li:last-child span:first-child{
+    text-decoration: underline;
+}
+.input-mail li:last-child span:last-child{
+    text-decoration: underline;
+}
+.contact-us li:nth-child(5){
+  color: rgb(59, 58, 58);
+}
+.contact-us li:nth-child(6){
+    text-decoration: underline;
+    font-size: 11px;
+  }
+  #securityInfo{
+    width: 100%;
+    height: 200px;
+  }
+  .card{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(185, 182, 182);
+    position: relative;
+  }
+  .card div{
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    left: 470px;
+    background-color: #fff;
+    border: 1px solid rgb(185, 182, 182);
+    border-bottom: 1px solid #fff;
+  }
+  .card img{
+    position: absolute;
+    left: 500px;
+    top: 10px;
+    background-color: #fff;
+  }
+.security{
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .security i{
+    font-size: 10px;
+  }
+  .companyDetails{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(201, 197, 197);
+    text-align: center;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+     padding-top: 10px;
+     line-height: 18px;
+     border-top: 1px solid rgb(177, 174, 174);
+     border-bottom: 1px solid rgb(177, 174, 174);
+  }
+  .company-link{
+    text-align: center;
+    padding-top: 5px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+  }
+  .company-link a{
+    color: rgb(105, 103, 103);
+  }
